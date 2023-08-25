@@ -1,0 +1,27 @@
+print("Guess the answer!")
+
+
+def check_guss(guss, answer):
+    if guss.lower() == answer.lower():
+        print("you are correct")
+
+        print("now try to guess the next answer!!!!")
+    else:
+        print("you are wrong!!")
+
+
+guess1 = input("which is the the fastest animal on land?? ")
+check_guss(guess1, "Cheetah")
+# -----------------------------------------------------------
+guss2 = input("which animal is heaviest? ")
+check_guss(guss2, "whale")
+# -----------------------------------------------------------
+guess3 = input("which is the heaviest bird on this planet?? ")
+check_guss(guess3, "ostrich")
+
+
+
+rating = input("now rate the experience from 1-10!!")
+print("{0}  THANK YOU FOR YOUR RATING:)".format(str(rating)))
+print("HAVE A NICE DAY!!!!")
+print("BYE!!")
